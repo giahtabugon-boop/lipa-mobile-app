@@ -54,6 +54,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - lib/assets/icons/emergency.svg
+    - lib/assets/icons/view_more.svg
+    - lib/assets/icons/services.svg
+    - lib/assets/icons/transport.svg
+    - lib/assets/icons/utilities.svg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

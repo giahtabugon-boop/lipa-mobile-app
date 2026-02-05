@@ -16,7 +16,10 @@ class TopBanner extends StatelessWidget {
       child: Stack(
         fit: StackFit.expand,
         children: [
-          Image.asset('assets/images/banner.jpg', fit: BoxFit.cover),
+          Image.asset(
+            "https://lipa.gov.ph/wp-content/uploads/2025/08/WelcomeBanner2-1.jpg",
+            fit: BoxFit.cover,
+          ),
           Container(color: Colors.black.withOpacity(0.45)),
           Padding(
             padding: EdgeInsets.all(AppSpacing.md),
@@ -47,7 +50,7 @@ class TopBanner extends StatelessWidget {
       child: const TextField(
         decoration: InputDecoration(
           icon: Icon(Icons.search),
-          hintText: 'Search for services',
+          hintText: 'Search',
           border: InputBorder.none,
         ),
       ),
