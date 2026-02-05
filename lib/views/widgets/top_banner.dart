@@ -47,7 +47,7 @@ class TopBanner extends StatelessWidget {
       child: const TextField(
         decoration: InputDecoration(
           icon: Icon(Icons.search),
-          hintText: 'Search',
+          hintText: 'Search for services',
           border: InputBorder.none,
         ),
       ),
