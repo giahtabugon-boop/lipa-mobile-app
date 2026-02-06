@@ -12,14 +12,14 @@ class QuickActions extends StatelessWidget {
     AppSizes.init(context);
 
     final items = [
-      {'icon': 'assets/icons/services.png', 'label': 'Services'},
-      {'icon': 'assets/icons/citizen_guide.png', 'label': 'Citizen\nGuide'},
-      {'icon': 'assets/icons/e_services.png', 'label': 'E-Services'},
-      {'icon': 'assets/icons/emergency.png', 'label': 'Emergency'},
-      {'icon': 'assets/icons/utilities.png', 'label': 'Utilities'},
-      {'icon': 'assets/icons/transport.png', 'label': 'Transport'},
-      {'icon': 'assets/icons/business.png', 'label': 'Business'},
-      {'icon': 'assets/icons/view_more.png', 'label': 'View More'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
+      {'icon': 'lib/assets/icons/service_.png', 'label': 'Services'},
     ];
 
     return Padding(
@@ -39,8 +39,8 @@ class QuickActions extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Container(
-                width: AppSizes.scale(52),
-                height: AppSizes.scale(52),
+                width: AppSizes.scale(40),
+                height: AppSizes.scale(40),
                 decoration: const BoxDecoration(
                   color: AppColors.secondary,
                   shape: BoxShape.circle,
