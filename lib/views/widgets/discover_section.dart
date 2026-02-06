@@ -27,11 +27,12 @@ class DiscoverSection extends StatelessWidget {
             _discoverCard(
               image: 'assets/images/cintia_hotel.jpg',
               title: 'Cintia - Coritos Garden Hotel',
-              description: 'Perfect for couples and families...',
+              description:
+                  'Perfect for couples and families, Cintai is a favorite reception venue of marrying couples who are dreaming of a romantic setting for their wedding reception',
             ),
             SizedBox(height: AppSpacing.sm),
             _discoverCard(
-              image: 'assets/images/lipa_lomi.jpg',
+              image: 'assets/images/batangas_lomi.jpg',
               title: 'Lipa Lomi',
               description: 'Lomi stands apart from the rest...',
             ),
